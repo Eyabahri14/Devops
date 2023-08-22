@@ -7,3 +7,4 @@ parameters:
   type: gp2
 reclaimPolicy: Delete
 allowVolumeExpansion: true
+volumeBindingMode: WaitForFirstConsumer
