@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: db_config
+  name: db-config
 data:
   MYSQL_DATABASE: achatdb
   MYSQL_HOST : mysqldb

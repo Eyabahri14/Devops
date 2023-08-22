@@ -24,17 +24,17 @@ spec:
             - name: MYSQL_ROOT_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: db_secret # Setting Database root password from a 'Secret'
+                  name: db-secret # Setting Database root password from a 'Secret'
                   key: MYSQL_ROOT_PASSWORD
             - name: MYSQL_DATABASE
               valueFrom:
                 configMapKeyRef:
-                  name: db_config # Setting Database Name from a 'ConfigMap'
+                  name: db-config # Setting Database Name from a 'ConfigMap'
                   key: MYSQL_DATABASE
             - name: MYSQL_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: db_secret # Setting Database password from a 'Secret'
+                  name: db-secret # Setting Database password from a 'Secret'
                   key: MYSQL_PASSWORD
           ports:
             - containerPort: 3306
