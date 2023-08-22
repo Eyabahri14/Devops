@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-achat-deployment
+spec:
+  selector:
+    matchLabels:
+      app: test-achat
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: test-achat
+    spec:
+      containers:
+        - name: test-achat
+          image: eyabahri14/testachat:latest
+          ports:
+            - containerPort: 8089
+          env:   # Setting Enviornmental Variables
+            - name: DB_HOST   # Setting Database host address from configMap
+              valueFrom :
+                configMapKeyRef :
+                  name : db_config
+                  key :  MYSQL_HOST
+
+            - name: DB_NAME  # Setting Database name from configMap
+              valueFrom :
+                configMapKeyRef :
+                  name : db_config
+                  key :  MYSQL_DATABASE
+
+            - name: DB_USERNAME  # Setting Database username from Secret
+              valueFrom :
+                secretKeyRef :
+                  name : db_secret
+                  key :  MYSQL_USERNAME
+
+            - name: DB_PASSWORD # Setting Database password from Secret
+              valueFrom :
+                secretKeyRef :
+                  name : db_secret
+                  key :  MYSQL_PASSWORD
+
+---
+
+apiVersion: v1 # Kubernetes API version
+kind: Service # Kubernetes resource kind we are creating
+metadata: # Metadata of the resource kind we are creating
+  name: test-achat-service
+spec:
+  selector:
+    app: test-achat
+  ports:
+    - protocol: "TCP"
+      port: 8089 # The port that the service is running on in the cluster
+      targetPort: 8089 # The port exposed by the service
+  type: NodePort # type of the service.

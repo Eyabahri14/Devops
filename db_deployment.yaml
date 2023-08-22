@@ -1,0 +1,59 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysqldb
+  labels:
+    app: mysqldb
+    tier: database
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysqldb
+      tier: database
+  template:
+    metadata:
+      labels:
+        app: mysqldb
+        tier: database
+    spec:
+      containers:
+        - image: mysql:latest
+          name: mysqldb
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: db_secret # Setting Database root password from a 'Secret'
+                  key: MYSQL_ROOT_PASSWORD
+            - name: MYSQL_DATABASE
+              valueFrom:
+                configMapKeyRef:
+                  name: db_config # Setting Database Name from a 'ConfigMap'
+                  key: MYSQL_DATABASE
+            - name: MYSQL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: db_secret # Setting Database password from a 'Secret'
+                  key: MYSQL_PASSWORD
+          ports:
+            - containerPort: 3306
+              name: mysql
+---
+# Define a 'Service' To Expose mysql to Other Services
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+  labels:
+    app: mysql
+    tier: database
+spec:
+  ports:
+    - port: 3306
+      targetPort: 3306
+  selector:
+    app: mysqldb
+    tier: database
+    # ClusterIP: None => Headless service means we use DNS to directly access the pods. There's no load balancing involved, allowing direct connections to pods.
+  clusterIP: None
