@@ -16,7 +16,7 @@
 
 <p align="center">
     <a>
-        <img src="https://jhooq.com/wp-content/uploads/2020/10/jenkins-ci-cd-flow.png" alt="Jenkins Icon" width="300" height="300">
+        <img src="https://jhooq.com/wp-content/uploads/2020/10/jenkins-ci-cd-flow.png" alt="Jenkins Icon" width="300" height="200">
     </a>
 </p>
 
