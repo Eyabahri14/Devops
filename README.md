@@ -1,4 +1,4 @@
-<h1 align="center">👋 Exploring DevOps: My First Project</h1>
+<h1 align="center">👋🚀 Hi there! This is My First DevOps Project</h1>
 
 <p align="center">
     <img src="https://upload.wikimedia.org/wikipedia/labs/thumb/b/ba/Kubernetes-icon-color.svg/2110px-Kubernetes-icon-color.svg.png" alt="Kubernetes Icon" width="100" height="100">
