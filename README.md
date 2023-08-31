@@ -15,7 +15,7 @@
 
 <p align="center">
     <a>
-        <img src="https://cdn.iconscout.com/icon/free/png-256/free-jenkins-1-282385.png?f=webp" alt="Jenkins Icon" width="200" height="200">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-jenkins-1-282385.png?f=webp" alt="Jenkins Icon" width="300" height="200">
     </a>
 </p>
 
