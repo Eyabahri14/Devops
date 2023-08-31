@@ -1,4 +1,4 @@
-![image](https://github.com/Eyabahri14/Devops/assets/61538228/f14c2f0b-8863-45fb-9e4f-688b36071862)<h1 align="center">Hi 👋, This is my first project on DevOps</h1>
+<h1 align="center">Hi 👋, This is my first project on DevOps</h1>
 Run and Deploy Spring Boot Application With MySQL on Kubernetes cluster ( master and two workers) 
 
 <p align="center">
