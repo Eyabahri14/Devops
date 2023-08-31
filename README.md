@@ -7,7 +7,7 @@
     <img  src="https://assets.stickpng.com/images/62a78ca8e42d729d928b174d.png" width="100" height="100">
     <img src="https://raw.githubusercontent.com/kubernetes/kubeadm/master/logos/stacked/color/kubeadm-stacked-color.png" alt="Kubeadm Icon" width="100" height="100">
     <img src="https://vscjava.gallerycdn.vsassets.io/extensions/vscjava/vscode-spring-boot-dashboard/0.13.2023072200/1689984300042/Microsoft.VisualStudio.Services.Icons.Default" alt="Spring Icon" width="100" height="100">
-    <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/mysql-logo.png" alt="QL Icon" width="100" height="200">
+    <img src="[https://cdn.freebiesupply.com/logos/thumbs/2x/mysql-logo.png](https://upload.wikimedia.org/wikipedia/fr/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png)" alt="QL Icon" width="100" height="100">
 </p>
 
 <p align="center">
