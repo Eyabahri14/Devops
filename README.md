@@ -4,10 +4,10 @@
     <img src="https://upload.wikimedia.org/wikipedia/labs/thumb/b/ba/Kubernetes-icon-color.svg/2110px-Kubernetes-icon-color.svg.png" alt="Kubernetes Icon" width="100" height="100">
     <img src="https://static-00.iconduck.com/assets.00/docker-icon-512x438-ga1hb37h.png" alt="Docker Icon" width="100" height="100">
     <img src="https://connect.redhat.com/s3api/prod-s3api/felix_icon.png" alt="Calico Icon" width="100" height="100">
+    <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/1024px-Apache_Maven_logo.svg.png" width="100" height="100">
     <img src="https://raw.githubusercontent.com/kubernetes/kubeadm/master/logos/stacked/color/kubeadm-stacked-color.png" alt="Kubeadm Icon" width="100" height="100">
-    <img src="https://github.com/NadineMili/Devops/assets/80693299/f5cbb0cd-0b9d-4666-8e65-e6f5760859b6" alt="Docker Hub Icon" width="100" height="100">
-    <img src="https://github.com/NadineMili/Devops/assets/80693299/39ea787f-c913-4fd8-9413-4e19b5aa2364" alt="Spring Icon" width="100" height="100">
-    <img src="https://github.com/NadineMili/Devops/assets/80693299/efe8c64b-244e-429a-baea-2c0989b57c46" alt="QL Icon" width="100" height="100">
+    <img src="https://vscjava.gallerycdn.vsassets.io/extensions/vscjava/vscode-spring-boot-dashboard/0.13.2023072200/1689984300042/Microsoft.VisualStudio.Services.Icons.Default" alt="Spring Icon" width="100" height="100">
+    <img src="https://camo.githubusercontent.com/f85f882cb31eeaeee657ec955313015c30378e8f56c3dc2f06933b617a276cfd/68747470733a2f2f77372e706e6777696e672e636f6d2f706e67732f3734372f3739382f706e672d7472616e73706172656e742d6d7973716c2d6c6f676f2d6d7973716c2d64617461626173652d7765622d646576656c6f706d656e742d636f6d70757465722d736f6674776172652d646f6c7068696e2d6d6172696e652d6d616d6d616c2d616e696d616c732d746578742d7468756d626e61696c2e706e67" alt="QL Icon" width="100" height="100">
 </p>
 
 <p align="center">
