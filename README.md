@@ -15,7 +15,7 @@
 
 <p align="center">
     <a>
-        <img src="https://jhooq.com/wp-content/uploads/2020/10/jenkins-ci-cd-flow.png" alt="Jenkins Icon" width="400" height="200">
+        <img src="https://assets.stickpng.com/images/58480984cef1014c0b5e4902.png" alt="Jenkins Icon" width="400" height="200">
     </a>
 </p>
 
@@ -24,11 +24,11 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/NadineMili/Devops/assets/80693299/c88b7142-632d-44e6-aadd-f0f193c958fa">
-        <img src="https://github.com/NadineMili/Devops/assets/80693299/c88b7142-632d-44e6-aadd-f0f193c958fa" alt="Premetheus Icon" width="100" height="100">
+    <a>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/2066px-Prometheus_software_logo.svg.png" alt="Premetheus Icon" width="100" height="100">
     </a>
-    <a href="https://github.com/NadineMili/Devops/assets/80693299/7ee58494-2cc7-4aae-91b4-bcd5ffc73122">
-        <img src="https://github.com/NadineMili/Devops/assets/80693299/7ee58494-2cc7-4aae-91b4-bcd5ffc73122" alt="Prometheus Icon" width="100" height="100">
+    <a>
+        <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/grafana_logo_icon_171048.png" alt="Grafana Icon" width="100" height="100">
     </a>
 </p>
 
