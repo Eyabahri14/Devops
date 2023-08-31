@@ -15,7 +15,7 @@
 
 <p align="center">
     <a>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png" alt="Jenkins Icon" width="400" height="200">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-jenkins-1-282385.png?f=webp" alt="Jenkins Icon" width="400" height="200">
     </a>
 </p>
 
