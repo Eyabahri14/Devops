@@ -2,7 +2,7 @@
 Run and Deploy Spring Boot Application With MySQL on Kubernetes cluster ( master and two workers) 
 
 <p align="center">
-    <a href="https://github.com/NadineMili/Devops/assets/80693299/e584a850-e522-478d-97b3-513cd70b702b">
+    <a>
     <img src="https://images.squarespace-cdn.com/content/v1/5bc48e00a9ab951efbd3baa2/e524d077-40c1-4bea-be41-11af3dcdaa22/kubernetes.png" alt="Kubernetes Icon" width="100" height="100">
   </a>
   <a href="https://github.com/NadineMili/Devops/assets/80693299/2c6ba948-cb4f-420a-bdc7-d76d340ddf36">
